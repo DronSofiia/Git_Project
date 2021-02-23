@@ -2,6 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d197b1d-7b4c-4a81-a882-6084c2b47799" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Git_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/additional.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ve/bin/Activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ve/bin/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ve/bin/activate.csh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ve/bin/activate.fish" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ve/bin/chardetect" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ve/bin/flask" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ve/bin/pip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ve/bin/pip3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ve/bin/pip3.8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ve/bin/python" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ve/bin/python3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ve/pyvenv.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +72,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/photo" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -162,7 +188,7 @@
       <workItem from="1613845606787" duration="3653000" />
       <workItem from="1614022688622" duration="227000" />
       <workItem from="1614022917569" duration="6238000" />
-      <workItem from="1614073194442" duration="14192000" />
+      <workItem from="1614073194442" duration="14501000" />
     </task>
     <servers />
   </component>
