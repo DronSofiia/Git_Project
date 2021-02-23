@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body style="margin-left:5%">
+
+  <div class="form-group"  style="height: 80%;width: 30%;margin-top: 3%;margin-left:2%;">
+      <h3>Your GitHub Name: </h3>
+      <form action="" method="post">
+          <input type="text" class="form-control"  placeholder="GitHub_login" name="username"  value="{{request.form.username }}"  id="exampleInputEmail1" aria-describedby="emailHelp" >
+          <button type="submit" class="btn btn-dark" value="username"> Search </button>
+      </form>
+  </div>
+  {% if resitory_date %}
+      <div>
+        <h3 style="margin-left:5%">Repositories:</h3>
+        <ul style="margin-left:5%">
+        {% for i in resitory_date %}
+            <li>{{ i }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+  {% endif %}
+
+  {% if eror != None %}
+        <div>
+            <h5 style="margin-left:5%"> {{eror}} </h5>
+        </div>
+  {% endif %}
+
+</body>
+</html>
